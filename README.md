@@ -1,15 +1,17 @@
-**Gradient Descent Model**
-Overview
-This repository provides an in-depth understanding of linear regression using the Gradient Descent method. It covers both theoretical concepts and practical implementations, ensuring a complete learning experience. By the end of this guide, you will have a solid grasp of how to implement linear regression from scratch and preprocess data effectively.
+# Gradient Descent Model
 
-Features
-Theoretical Insights: A detailed explanation of the Gradient Descent method and its role in linear regression.
-Practical Implementation: Step-by-step code examples for building and training a linear regression model using the Gradient Descent method.
-Data Handling: Comprehensive techniques for data preparation, including:
-Exploratory Data Analysis (EDA): Insights into the dataset through visualization and statistical methods.
-Handling Missing Values: Approaches to clean and impute missing data.
-Outlier Management: Strategies to detect and manage outliers in the dataset.
-Categorical Data Encoding: Encoding categorical variables using the OneHotEncoding method.
+## Overview
+This repository provides an in-depth understanding of linear regression using the Gradient Descent method. It covers both theoretical concepts and practical implementations, ensuring a complete learning experience. By the end of this guide, you will have a solid grasp of how to implement linear regression from scratch and preprocess data effectively.
+---  
+## Features
+* **Theoretical Insights:** A detailed explanation of the Gradient Descent method and its role in linear regression.
+* **Practical Implementation:** Step-by-step code examples for building and training a linear regression model using the Gradient Descent method.
+* **Data Handling:** Comprehensive techniques for data preparation, including:
+* **Exploratory Data Analysis (EDA):** Insights into the dataset through visualization and statistical methods.
+* **Handling Missing Values:** Approaches to clean and impute missing data.
+* **Outlier Management:** Strategies to detect and manage outliers in the dataset.
+* **Categorical Data Encoding:** Encoding categorical variables using the OneHotEncoding method.
+
 Prerequisites
 Python 3.8 or higher
 pip package manager
