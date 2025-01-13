@@ -38,7 +38,6 @@ pip install -r requirements.txt
 * theory/: Contains theoretical explanations of Gradient Descent and linear regression.
 * data/: Example datasets for hands-on practice.
 * notebooks/: Jupyter Notebooks for practical implementation.
-* scripts/: Python scripts for model building and data preprocessing.
 * requirements.txt: Dependencies for the project.
 
 ## Implementation Steps
