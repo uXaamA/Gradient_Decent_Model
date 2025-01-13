@@ -1,4 +1,4 @@
-Gradient Descent Model
+**Gradient Descent Model**
 Overview
 This repository provides an in-depth understanding of linear regression using the Gradient Descent method. It covers both theoretical concepts and practical implementations, ensuring a complete learning experience. By the end of this guide, you will have a solid grasp of how to implement linear regression from scratch and preprocess data effectively.
 
