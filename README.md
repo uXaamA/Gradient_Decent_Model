@@ -2,7 +2,7 @@
 
 ## Overview
 This repository provides an in-depth understanding of linear regression using the Gradient Descent method. It covers both theoretical concepts and practical implementations, ensuring a complete learning experience. By the end of this guide, you will have a solid grasp of how to implement linear regression from scratch and preprocess data effectively.
----  
+
 ## Features
 * **Theoretical Insights:** A detailed explanation of the Gradient Descent method and its role in linear regression.
 * **Practical Implementation:** Step-by-step code examples for building and training a linear regression model using the Gradient Descent method.
@@ -12,30 +12,28 @@ This repository provides an in-depth understanding of linear regression using th
 * **Outlier Management:** Strategies to detect and manage outliers in the dataset.
 * **Categorical Data Encoding:** Encoding categorical variables using the OneHotEncoding method.
 
-Prerequisites
-Python 3.8 or higher
-pip package manager
-Recommended Python libraries:
-numpy
-pandas
-matplotlib
-seaborn
-scikit-learn
-Installation and Setup
-Step 1: Clone the Repository
-bash
-Copy code
+## Prerequisites
+* Python 3.8 or higher
+* pip package manager
+* Recommended Python libraries:
+* * numpy
+* * pandas
+* * matplotlib
+* * seaborn
+* * scikit-learn
+
+## Installation and Setup
+** Clone the RStep 1:epository**
 git clone <repository-url>
 cd <repository-folder>
-Step 2: Create a Virtual Environment
-bash
-Copy code
+
+**Step 2: Create a Virtual Environment**
 python3 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-Step 3: Install Dependencies
-bash
-Copy code
+
+**Step 3: Install Dependencies**
 pip install -r requirements.txt
+
 Project Structure
 theory/: Contains theoretical explanations of Gradient Descent and linear regression.
 data/: Example datasets for hands-on practice.
