@@ -16,11 +16,11 @@ This repository provides an in-depth understanding of linear regression using th
 * Python 3.8 or higher
 * pip package manager
 * Recommended Python libraries:
-* * numpy
-* * pandas
-* * matplotlib
-* * seaborn
-* * scikit-learn
+  * numpy
+  * pandas
+  * matplotlib
+  * seaborn
+  * scikit-learn
 
 ## Installation and Setup
 ** Clone the RStep 1:epository**
@@ -34,37 +34,38 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 **Step 3: Install Dependencies**
 pip install -r requirements.txt
 
-Project Structure
-theory/: Contains theoretical explanations of Gradient Descent and linear regression.
-data/: Example datasets for hands-on practice.
-notebooks/: Jupyter Notebooks for practical implementation.
-scripts/: Python scripts for model building and data preprocessing.
-requirements.txt: Dependencies for the project.
-Implementation Steps
-1. Theoretical Background
+## Project Structure
+* theory/: Contains theoretical explanations of Gradient Descent and linear regression.
+* data/: Example datasets for hands-on practice.
+* notebooks/: Jupyter Notebooks for practical implementation.
+* scripts/: Python scripts for model building and data preprocessing.
+* requirements.txt: Dependencies for the project.
+
+## Implementation Steps
+**1. Theoretical Background**
 Gain a clear understanding of:
-
-The mathematics behind Gradient Descent.
-How Gradient Descent optimizes the cost function in linear regression.
-2. Exploratory Data Analysis (EDA)
+* The mathematics behind Gradient Descent.
+* How Gradient Descent optimizes the cost function in linear regression.
+**2. Exploratory Data Analysis (EDA)**
 Perform EDA to:
-
-Visualize data distributions.
-Analyze relationships between variables.
-Detect patterns and anomalies.
-3. Data Preprocessing
-Handling Missing Values: Impute or drop missing data points.
-Outlier Detection: Use statistical methods like Z-score or IQR.
-Encoding Categorical Data: Apply OneHotEncoding to handle non-numerical data effectively.
-4. Model Implementation
-Build a linear regression model from scratch using Gradient Descent.
-Train the model on preprocessed data.
-Evaluate model performance using metrics like Mean Squared Error (MSE) and R² score.
-Running the Project
-Open the Jupyter Notebook in the notebooks/ folder.
-Follow the step-by-step guide provided in the notebook to preprocess data, train the model, and evaluate results.
-Use the example datasets in the data/ folder to experiment with different scenarios.
-Troubleshooting
-Error: ModuleNotFoundError: Ensure all dependencies are installed via requirements.txt.
-Model Not Converging: Adjust the learning rate for Gradient Descent.
-Encoding Issues: Verify that categorical columns are correctly identified and encoded.
+* Visualize data distributions.
+* Analyze relationships between variables.
+* Detect patterns and anomalies.
+**3. Data Preprocessing**
+**Handling Missing Values:** Impute or drop missing data points.
+**Outlier Detection:** Use statistical methods like Z-score or IQR.
+**Encoding Categorical Data:** Apply OneHotEncoding to handle non-numerical data effectively.
+**4. Model Implementation**
+* Build a linear regression model from scratch using Gradient Descent.
+* Train the model on preprocessed data.
+* Evaluate model performance using metrics like Mean Squared Error (MSE) and R² score.
+  
+## Running the Project
+* Open the Jupyter Notebook in the notebooks/ folder.
+* Follow the step-by-step guide provided in the notebook to preprocess data, train the model, and evaluate results.
+* Use the example datasets in the data/ folder to experiment with different scenarios.
+  
+## Troubleshooting
+* **Error: ModuleNotFoundError:** Ensure all dependencies are installed via requirements.txt.
+* **Model Not Converging:** Adjust the learning rate for Gradient Descent.
+* **Encoding Issues:** Verify that categorical columns are correctly identified and encoded.
